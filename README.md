@@ -25,13 +25,13 @@ Siga os passos abaixo para configurar o ambiente de desenvolvimento:
     ```
 2.  **Instale as dependências:**
     *(Exemplo para Node.js)*
+  
     ```bash
     npm install
     ```
     *(Adapte o comando para o gerenciador de pacotes da sua linguagem: pip, mvn, gradle, etc.)*
 
 ## ▶️ Como Executar
-
     ```bash
     npm run dev
     ```
