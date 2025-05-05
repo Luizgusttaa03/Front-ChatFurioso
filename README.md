@@ -1,54 +1,45 @@
-# React + TypeScript + Vite
+[![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://opensource.org/licenses/MIT)
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+ChatFurioso é um chatbot desenvolvido para ser um especialista sobre a FURIA, respondendo perguntas sobre a organização, seus times, jogadores, história e conquistas. Criado como parte de um projeto voltado para engajamento de fãs, o ChatFurioso combina tecnologia e paixão pelos eSports para oferecer uma experiência interativa e informativa sobre tudo que envolve o universo da FURIA.
 
-Currently, two official plugins are available:
+## ✨ Funcionalidade Principa;
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+*   ChatBot personalizavel, tema aplicado: Time Furia
 
-## Expanding the ESLint configuration
+## 🛠️ Tecnologias Utilizadas
 
-If you are developing a production application, we recommend updating the configuration to enable type-aware lint rules:
+*   Framework/Biblioteca React
+*   Banco de DadosPostgreSQL
+*   Outras dependências importantes
 
-```js
-export default tseslint.config({
-  extends: [
-    // Remove ...tseslint.configs.recommended and replace with this
-    ...tseslint.configs.recommendedTypeChecked,
-    // Alternatively, use this for stricter rules
-    ...tseslint.configs.strictTypeChecked,
-    // Optionally, add this for stylistic rules
-    ...tseslint.configs.stylisticTypeChecked,
-  ],
-  languageOptions: {
-    // other options...
-    parserOptions: {
-      project: ['./tsconfig.node.json', './tsconfig.app.json'],
-      tsconfigRootDir: import.meta.dirname,
-    },
-  },
-})
-```
+## ⚙️ Instalação
 
-You can also install [eslint-plugin-react-x](https://github.com/Rel1cx/eslint-react/tree/main/packages/plugins/eslint-plugin-react-x) and [eslint-plugin-react-dom](https://github.com/Rel1cx/eslint-react/tree/main/packages/plugins/eslint-plugin-react-dom) for React-specific lint rules:
+Siga os passos abaixo para configurar o ambiente de desenvolvimento:
 
-```js
-// eslint.config.js
-import reactX from 'eslint-plugin-react-x'
-import reactDom from 'eslint-plugin-react-dom'
+1.  **Clone o repositório:**
+    ```bash
+    git clone https://github.com/Luizgusttaa03/Front-ChatFurioso.git
+    cd chatfurioso
+    git clone https://github.com/Luizgusttaa03/Front-ChatFurioso.git <!-- Confirme se este é o link correto -->
+    cd Front-ChatFurioso <!-- Verifique se o nome da pasta é este após o clone -->
+    ```
+2.  **Instale as dependências:**
+    *(Exemplo para Node.js)*
+    ```bash
+    npm install
+    ```
+    *(Adapte o comando para o gerenciador de pacotes da sua linguagem: pip, mvn, gradle, etc.)*
 
-export default tseslint.config({
-  plugins: {
-    // Add the react-x and react-dom plugins
-    'react-x': reactX,
-    'react-dom': reactDom,
-  },
-  rules: {
-    // other rules...
-    // Enable its recommended typescript rules
-    ...reactX.configs['recommended-typescript'].rules,
-    ...reactDom.configs.recommended.rules,
-  },
-})
-```
+## ▶️ Como Executar
+
+    ```bash
+    npm run dev
+    ```
+
+2.  Acesse a aplicação em `http://localhost:8000`.
+
+## 📞 Contato
+
+Luiz Gustavo - @luizgusttaa - luizgustavoboldori03@gmail.com
+
+Link do Projeto: https://github.com/seu-usuario/chatfurioso
